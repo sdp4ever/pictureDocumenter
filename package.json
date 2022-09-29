@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "webcam-easy": "^1.0.5"
+  }
+}

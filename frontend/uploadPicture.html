@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+    <script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
+
+<body>
+    <h1>Bilder Upload mit Metadaten</h1>
+    <br/>
+    <p>Im folgenden können Bilder mit gewissen Metadaten hochgeladen werden, damit man mit diesen später Programmoperationen machen kann.</p>
+    <br/>
+    <label for="img">Bild auswählen:</label>
+    <br/>
+    <input type="file" id="img" name="img" accept="image/*">
+    <br/>
+    <input type="submit" id="sBtn">
+
+    <video id="webcam" autoplay playsinline width="640" height="480"></video>
+    <canvas id="canvas" class="d-none"></canvas>
+    <audio id="snapSound" src="audio/snap.wav" preload = "auto"></audio>
+
+</body>
+<script src="./js/submitData.js"></script>
+
+</html>
